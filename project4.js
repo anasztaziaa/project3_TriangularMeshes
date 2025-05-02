@@ -1,8 +1,6 @@
 // This function takes the projection matrix, the translation, and two rotation angles (in radians) as input arguments.
 // The two rotations are applied around x and y axes.
 // It returns the combined 4x4 transformation matrix as an array in column-major order.
-// The given projection matrix is also a 4x4 matrix stored as an array in column-major order.
-// You can use the MatrixMult function defined in project4.html to multiply two 4x4 matrices in the same format.
 function GetModelViewProjection( projectionMatrix, translationX, translationY, translationZ, rotationX, rotationY )
 {
 	// [TO-DO] Modify the code below to form the transformation matrix.
